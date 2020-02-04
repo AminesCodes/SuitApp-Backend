@@ -72,3 +72,6 @@ You can do this in the feed page ala Tumblr or Reddit style or have it entirely 
 * Break down the project into 7-10 **major tasks**. Add them as tickets/cards to trello board.
 * Break down **major tasks** into sub(smaller) tasks. Add them as tickets/cards to trello board.
 * Before starting to **code** your team have to get signed off by an instructor on your initial tickets on your trello board, wireframes, group roles and group norms. To get signed off tag us (Wynter, JR and Alejo) on a trello ticket called `Get sign off` we will comment on the ticket whether you are ready to go or need to rework things.
+
+### HEROKU URL
+https://suit-app.herokuapp.com/
