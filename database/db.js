@@ -5,8 +5,8 @@ GROUP 1: Amine Bensalem, Douglas MacKrell, Savita Madray, Joseph P. Pasaoa
 
 
 const pgp = require('pg-promise')();
-    const connectString = 'postgres://localhost:5432/suitapp_db';
-    const db = pgp(connectString);
+const connectString = process.env.DATABASE_URL;
+const db = pgp(connectString);
 
 
 module.exports = db;

@@ -5,7 +5,7 @@ GROUP 1: Amine Bensalem, Douglas MacKrell, Savita Madray, Joseph P. Pasaoa
 
 
 // DATABASE CONNECTION
-const db = require('../db');
+const db = require('../database/db');
 
 
 const getFollows = async (currentUserId) => {

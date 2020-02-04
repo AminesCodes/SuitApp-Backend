@@ -4,9 +4,16 @@ GROUP 1: Amine Bensalem, Douglas MacKrell, Savita Madray, Joseph P. Pasaoa
 */
 
 /* CREATE DATABASE */
-DROP DATABASE IF EXISTS suitapp_db;
-CREATE DATABASE suitapp_db;
-\c suitapp_db;
+-- DROP DATABASE IF EXISTS suitapp_db;
+-- CREATE DATABASE suitapp_db;
+-- \c suitapp_db;
+
+DROP TABLE IF EXISTS events;
+DROP TABLE IF EXISTS reactions;
+DROP TABLE IF EXISTS follows;
+DROP TABLE IF EXISTS comments;
+DROP TABLE IF EXISTS posts;
+DROP TABLE IF EXISTS users;
 
 /* CREATE TABLES */
 CREATE TABLE users
@@ -394,20 +401,20 @@ VALUES
 
 /* TESTING */
 
-SELECT *
-FROM users;
+-- SELECT *
+-- FROM users;
 
-SELECT *
-FROM posts;
+-- SELECT *
+-- FROM posts;
 
-SELECT *
-FROM comments;
+-- SELECT *
+-- FROM comments;
 
-SELECT *
-FROM reactions;
+-- SELECT *
+-- FROM reactions;
 
-SELECT *
-FROM follows;
+-- SELECT *
+-- FROM follows;
 
-SELECT *
-FROM events;
+-- SELECT *
+-- FROM events;
